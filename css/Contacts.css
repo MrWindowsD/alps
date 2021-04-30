@@ -1,0 +1,182 @@
+body {
+  background-color: #593250;
+}
+
+/*Шапка*/
+header {
+width : 100%;
+display : flex;
+align-items : center;
+position : fixed;
+justify-content : space-between;
+position : absolute;
+}
+header .right_header {
+display : flex;
+align-items : center;
+}
+header .mnu_top {
+list-style-type : none;
+}
+header .mnu_top li {
+display : inline-block;
+margin-right : 12px;
+}
+header .mnu_top li a {
+display : block;
+text-decoration : none;
+color : #fff;
+font-size : 16px;
+}
+header .mnu_top li a:hover {
+background-color : #346aa6;
+}
+header .btns {
+align-items : center;
+}
+header .btns > a {
+border-radius : 12px;
+text-decoration : none;
+color : #fff;
+font-size : 16px;
+background-color : #346aa6;
+}
+header .btns > a:hover {
+background-color : #f7c20c;
+color : #000;
+}
+header .btns .btn_in {
+margin-right : 24px;
+}
+header .logo {
+width : auto;
+margin-top : 50px;
+margin-left : 20px;
+margin : 0 auto 0 16px;
+padding : 20px 16px;
+max-width : 63px;
+max-height : 63px;
+}
+
+/*Подвал*/
+footer {
+width : 100%;
+display : flex;
+align-items : center;
+background : #593250;
+margin : 0;
+justify-content : center;
+}
+footer .footer_text {
+width : 631px;
+font-size : 1rem;
+margin : -58px auto 24px;
+color : #fff;
+text-align : center;
+padding-left : 224px;
+}
+footer .logo_footer {
+width : auto;
+margin-top : 50px;
+margin-left : 20px;
+max-width : 63px;
+max-height : 63px;
+margin : 42px 42px;
+}
+footer .logo_footer a {
+display : block;
+width : auto;
+}
+  
+/*Block page*/
+main {
+height : 100vh;
+overflow-y : visible;
+scroll-snap-type : y mandatory;
+}
+.section {
+height : 100vh;
+display : flex;
+justify-content : center;
+align-items : center;
+font-size : 2rem;
+scroll-snap-align : start;
+object-fit : cover;
+vertical-align : middle;
+background-size : cover;
+background-position : 50% 50%;
+background-repeat : no-repeat;
+}
+body {
+min-width : 320px;
+position : relative;
+font-family : "Merriweather", "Roboto", Lato, sans-serif;
+overflow-x : hidden;
+opacity : 1;
+margin : 0;
+font-size : 1rem;
+line-height : 1.6;
+}
+/*Block page*/
+
+/*FlexBox*/
+#flexcanvas {
+width : 100%;
+height : 600px !important ;
+}
+.rowParent, .columnParent {
+display : flex;
+flex-direction : row;
+flex-wrap : nowrap;
+justify-content : flex-start;
+align-content : stretch;
+align-items : stretch;
+}
+.columnParent {
+flex-direction : column;
+}
+.flexChild {
+flex : 1;
+align-self : auto;
+}
+/*FlexBox*/
+
+/*Stage 1*/
+#stage_01 {
+background-image : linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(../images/img_center.jpg);
+background-repeat : no-repeat;
+background-size : cover;
+color : #ffffff;
+text-align : center;
+object-fit : cover;
+display : block;
+vertical-align : middle;
+background-position : 50% 50%;
+font-family : 'Open Sans', sans-serif;
+font-size : 1rem;
+line-height : 1.6;
+}
+
+#stage_01 #columnChild32937{
+  padding-bottom: 85px;
+}
+
+#stage_01 #container #rowChild51808 {
+margin : 0 auto;
+}
+#stage_01 #container #rowChild51808 #columnChild83316 > h2 {
+width : auto;
+margin-top : 103px;
+margin-left : 130px;
+margin-right : 130px;
+font-weight : 400;
+font-size : 2.25rem;
+line-height : 1.1;
+}
+#stage_01 #container #rowChild51808 #columnChild83316 #columnChild82016 {
+align-self : stretch;
+}
+#stage_01 #container #rowChild51808 #columnChild83316 #rowChild74583 {
+align-items : stretch;
+}
+/*Stage 1*/

@@ -1,0 +1,115 @@
+/*Шапка*/
+header {
+width : 100%;
+z-index : 1000;
+display : flex;
+align-items : center;
+position : fixed;
+background : #593250;
+justify-content : space-between;
+top : 0;
+left : 0;
+}
+header .right_header {
+display : flex;
+align-items : center;
+}
+header .mnu_top {
+list-style-type : none;
+}
+header .mnu_top li {
+display : inline-block;
+margin-right : 12px;
+}
+header .mnu_top li a {
+display : block;
+text-decoration : none;
+color : #fff;
+font-size : 16px;
+}
+header .mnu_top li a:hover {
+background-color : #346aa6;
+}
+header .btns {
+align-items : center;
+}
+header .btns > a {
+border-radius : 12px;
+text-decoration : none;
+color : #fff;
+font-size : 16px;
+background-color : #346aa6;
+}
+header .btns > a:hover {
+background-color : #f7c20c;
+color : #000;
+}
+header .btns .btn_in {
+margin-right : 24px;
+}
+header .logo {
+width : auto;
+margin-top : 50px;
+margin-left : 20px;
+margin : 0 auto 0 16px;
+padding : 8px 16px;
+max-width : 63px;
+max-height : 63px;
+}
+
+/*Подвал*/
+footer {
+width : 100%;
+display : flex;
+align-items : center;
+background : #593250;
+margin : 0;
+justify-content : center;
+}
+footer .footer_text {
+width : 631px;
+font-size : 1rem;
+margin : -58px auto 24px;
+color : #fff;
+text-align : center;
+padding-left : 224px;
+}
+footer .logo_footer {
+width : auto;
+margin-top : 50px;
+margin-left : 20px;
+max-width : 63px;
+max-height : 63px;
+margin : 42px 42px;
+}
+  
+/*Block page*/
+main {
+height : 100vh;
+overflow-y : visible;
+scroll-snap-type : y mandatory;
+}
+
+.section {
+height : 100vh;
+display : flex;
+justify-content : center;
+align-items : center;
+font-size : 2rem;
+scroll-snap-align : start;
+object-fit : cover;
+vertical-align : middle;
+background-size : cover;
+background-position : 50% 50%;
+background-repeat : no-repeat;
+}
+body {
+min-width : 320px;
+position : relative;
+font-family : "Merriweather", "Roboto", Lato, sans-serif;
+overflow-x : hidden;
+opacity : 1;
+margin : 0;
+font-size : 1rem;
+line-height : 1.6;
+}

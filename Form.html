@@ -1,0 +1,85 @@
+<!doctype html>
+<html dir="ltr" style="font-size: 16px;" lang="ru-RU">
+<head>
+    <meta charset="utf-8">
+    <title>Form</title> <!-- название страницы -->
+	<link rel="stylesheet" href="css/Form.css" media="screen">
+	<link rel="stylesheet" href="css/nicepage.css" media="screen">
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,990i">
+</head>
+		<body>
+		
+<!-- Шапка -->
+  <header>
+	<div class="container right_header">
+		<a href="https://vk.com/mrwindowspro" target="_blank" class="logo" title="&quot;Залитай&quot;" ><img src="images/logo_02.png" alt="" width="63" height="49"></a>
+		<div class="right_header">
+				<ul class="mnu_top">
+					<li><a href="Alps.html" style="padding: 10px 15px;">Путешествия в Альпы</a></li>
+					<li><a href="Main.html" style="padding: 10px 15px;">Главная</a></li>
+					<li><a href="Contacts.html" style="padding: 10px 15px;">Контакты</a></li>
+				</ul>
+			<div class="btns">
+				<a href="Sign-In.html" style="padding: 10px 15px;" class="btn_in">Sign In</a>
+				<a href="Sign-Up.html" style="padding: 10px 15px;" class="btn_up">Sign Up</a>
+			</div>
+		</div>
+	</div >
+  </header>
+  
+  <!-- Page_01 -->
+<section id="stage_01">
+	<div id="container" class="flexChild rowParent">
+		<h1>Контактная форма</h1>
+		<p>Оправьте нам свою форму и мы обязательно свяжемся с Вами что бы уточнить заказ.</p>
+		<div class="form_page">
+			<form action="" method="POST" class="form-custom" style="padding: 10px" source="custom" name="form" redirect="true">
+            <div class="form-name">
+              <label for="name" class="label">Name</label>
+              <input type="text" placeholder="ФИО" id="name" name="name" class="border" required="">
+            </div>
+            <div class="form-email">
+              <label for="email" class="label">Email</label>
+              <input type="email" placeholder="Ваш Email" id="email" name="email" class="border-2" required="">
+            </div>
+            <div class="form-message">
+              <label for="message" class="label">Message</label>
+              <textarea placeholder="Укажите свои пожелания. Или если есть вопросы, мы на них ответим" rows="4" cols="50" id="message" name="message" class="border"></textarea>
+            </div>
+            <div class="form-select">
+              <label for="select" class="label-select">Выберите тариф</label>
+              <div class="form-select-wrapper">
+                <select id="select" name="select" class="border" required="required">
+                  <option value="Комфорт">Комфорт</option>
+                  <option value="Бизнес-класс">Бизнес-класс</option>
+                  <option value="SUPER SAVER">SUPER SAVER</option>
+                  <option value="SUPER SAVER">Другое</option>
+                </select>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
+              </div>
+            </div>
+            <div class="form-submit">
+              <a target="_blank" href="https://pm1.narvii.com/6912/53ff4ff9dc56004edb2886b3e5e0fa63ba982bf3r1-1024-1024v2_hq.jpg" class="btn-1">Submit</a>
+              <input type="submit" value="submit" class="form-control-hidden">
+            </div>
+            <div class="form-send-message">Спасибо! Ваше сообщение было отправлено. Совсем скоро мы с Вами свяжемся!</div>
+            <div class="form-send-error">Не удалось отправить ваше сообщение. Пожалуйста, исправьте ошибки, а затем повторите попытку.</div>
+            <input type="hidden" value="" name="recaptchaResponse">
+          </form>
+		</div>
+	</div>
+</section>
+  
+  <!-- Подвал -->
+		<footer>
+		<div class="container">
+			<div class="logo_footer">
+				<a href="#" title="Создано при поддержки &quot;Политех ИСПО&quot;" ><img src="images/logo_02.png" alt="" width="80" height="62"></a>
+				<p class="footer_text">Все права защищены. Все торговые марки являются собственностью соответствующих владельцев в России и других странах.<br>НДС включён во все цены, где он применим. Я люблю Политех</p>
+			</div>
+		</div>
+		</footer>
+  </body>
+</html>
